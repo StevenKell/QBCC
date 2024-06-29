@@ -1,20 +1,35 @@
-#main-title {
+body{
+    margin: auto;
+}
+
+#main-title{
     font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-shadow: 2px 2px gray;
     color: black;
     margin: auto;
-    width: 50%;
+    width: 35%;
+    font-weight: bold;
 }
 
 #event-viewer{
     margin: auto;
-    width: 50%;    
+    position: relative;
+    height: 100%; 
+    text-align: center;
 }
 
 .btn-group{
     margin: auto;
     width: 50%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
-.button {
+.button{
     border: none;
     color: black;
     padding: 15px 32px;
@@ -27,5 +42,6 @@
   }
 
   .button1{background-color: aqua;}
-  .button2{background-color: antiquewhite;}
-  .button3{background-color: coral;}
+  .button2{background-color: coral;}
+  .button3{background-color: antiquewhite;}
+  

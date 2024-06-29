@@ -1,0 +1,22 @@
+#about_main{
+font-size: large;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+text-shadow: 2px 2px;
+}
+#intro_text{
+    text-align: center;
+}
+table{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    border: 1px solid;
+}
+img{
+    display: block;
+    margin: auto;
+    position: static;
+    right: 0;
+    left: 0;
+}

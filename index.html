@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment2</title>
     <link rel="stylesheet" href="css/style.css" />
+     <script src="scripts.js"></script>
 </head>
 
 <body> 
-<p id="main-title">NYC AI and Datascience Events</p><br>
+<header id="main-title">AI and Datascience Events</header><br>
 
-  <script src="scripts.js"></script> 
   
-    <div id="event-viewer"><iframe src="june25.html" width=50% height="550" title="Latest upcoming event"></iframe></div><br>
+  
+    <section id="event-viewer"><iframe src="june25.html" width="50%" height=630px title="Latest upcoming event"></iframe>
+    </section>
     
     <div class="btn-group">
-    <button class="button button1">Home</button>
-    <button class="button button2">About</button>
-    <button class="button button3">View Events</button>
+    <button class="button button1" onclick="window.location.href = 'index.html'">Home</button>
+    <button class="button button2" onclick="window.location.href = 'upcoming_events.html'">Upcoming Events</button>
+    <button class="button button3" onclick="window.location.href = 'about.html'">About</button>
+    
    </div> 
 
 

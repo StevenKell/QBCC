@@ -1,1 +1,0 @@
-function loadhomepage = document.querySelector(".button1");
